@@ -6,7 +6,6 @@ import vehicles.Vehicle;
 
 public class TestCar {
     public static void main(String[] args) {
-        // Полиморфизм: ссылки родительских типов
         Vehicle C1 = new Car();
         Car C2 = new ElectricCar("Tesla", "White", "E777KX", 2022,
                 "Anna Smirnova", "INS-2002", 75.0);
@@ -14,7 +13,6 @@ public class TestCar {
         System.out.println(C1);
         System.out.println(C2);
 
-        // Изменение свойств через сеттеры
         C1.setModel("Audi");
         C1.setColor("Black");
         C1.setYear(2020);
