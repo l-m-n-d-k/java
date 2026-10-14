@@ -5,8 +5,7 @@ public class ElectricCar extends Car {
 
     @Override
     public String To_String() {
-        return "ElectricCar{" + super.To_String() +
-                ", batteryCapacity=" + batteryCapacity + '}';
+        return "ElectricCar{" + super.To_String() + ", batteryCapacity=" + batteryCapacity + '}';
     }
 
     public ElectricCar() {
