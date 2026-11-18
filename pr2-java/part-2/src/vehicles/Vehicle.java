@@ -2,7 +2,7 @@ package vehicles;
 
 public abstract class Vehicle {
     private String model;
-    private String licence;
+    private String license;
     private String color;
     private int year;
     private String ownerName;
@@ -14,7 +14,7 @@ public abstract class Vehicle {
     public String To_String() {
         return vehicleType() + "{" +
                 "model='" + model + '\'' +
-                ", licence='" + licence + '\'' +
+                ", license='" + license + '\'' +
                 ", color='" + color + '\'' +
                 ", year=" + year +
                 ", ownerName='" + ownerName + '\'' +
@@ -31,18 +31,18 @@ public abstract class Vehicle {
     public Vehicle() {
         this.model = "Toyota";
         this.color = "Orange";
-        this.licence = "TVMw7S";
+        this.license = "TVMw7S";
         this.year = 2002;
         this.ownerName = "Ivan Ivanov";
         this.insuranceNumber = "INS-0001";
         this.engineType = "Petrol";
     }
 
-    public Vehicle(String model, String color, String licence, int year,
+    public Vehicle(String model, String color, String license, int year,
                    String ownerName, String insuranceNumber, String engineType) {
         this.model = model;
         this.color = color;
-        this.licence = licence;
+        this.license = license;
         this.year = year;
         this.ownerName = ownerName;
         this.insuranceNumber = insuranceNumber;
@@ -56,8 +56,8 @@ public abstract class Vehicle {
     public String getModel() { return model; }
     public void setModel(String model) { this.model = model; }
 
-    public String getLicence() { return licence; }
-    public void setLicence(String licence) { this.licence = licence; }
+    public String getLicense() { return license; }
+    public void setLicense(String license) { this.license = license; }
 
     public String getColor() { return color; }
     public void setColor(String color) { this.color = color; }

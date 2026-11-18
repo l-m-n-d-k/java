@@ -9,9 +9,9 @@ public class ElectricCar extends Car {
         this.batteryCapacity = 60.0;
     }
 
-    public ElectricCar(String model, String color, String licence, int year,
+    public ElectricCar(String model, String color, String license, int year,
                        String ownerName, String insuranceNumber, double batteryCapacity) {
-        super(model, color, licence, year, ownerName, insuranceNumber, "Electric");
+        super(model, color, license, year, ownerName, insuranceNumber, "Electric");
         this.engineType = "Electric";
         this.batteryCapacity = batteryCapacity;
     }

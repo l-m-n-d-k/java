@@ -1,13 +1,13 @@
 public class Car {
     private String model;
-    private String licence;
+    private String license;
     private String color;
     private int year;
 
     public String To_String() {
         return "Car{" +
                 "model='" + model + '\'' +
-                ", licence='" + licence + '\'' +
+                ", license='" + license + '\'' +
                 ", color='" + color + '\'' +
                 ", year=" + year +
                 '}';
@@ -21,7 +21,7 @@ public class Car {
     public Car() {
         this.model = "Toyota";
         this.color = "Orange";
-        this.licence = "TVMw7S";
+        this.license = "TVMw7S";
         this.year = 2002;
     }
 
@@ -29,13 +29,13 @@ public class Car {
         this.model = model;
         this.year = year;
         this.color = "red";
-        this.licence = "fsdt32";
+        this.license = "fsdt32";
     }
 
-    public Car(String model, String color, String licence, int year) {
+    public Car(String model, String color, String license, int year) {
         this.model = model;
         this.color = color;
-        this.licence = licence;
+        this.license = license;
         this.year = year;
     }
 
@@ -51,12 +51,12 @@ public class Car {
         this.model = model;
     }
 
-    public String getLecince() {
-        return licence;
+    public String getLicense() {
+        return license;
     }
 
-    public void setLecince(String lecence) {
-        this.licence = licence;
+    public void setLicense(String license) {
+        this.license = license;
     }
 
     public String getColor() {

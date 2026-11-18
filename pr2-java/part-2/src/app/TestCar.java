@@ -17,7 +17,7 @@ public class TestCar {
         C1.setYear(2020);
         C1.setOwnerName("Petr Petrov");
 
-        C2.setLicence("E888KX");
+        C2.setLicense("E888KX");
         C2.setInsuranceNumber("INS-3003");
         ((ElectricCar) C2).setBatteryCapacity(82.5);
 
